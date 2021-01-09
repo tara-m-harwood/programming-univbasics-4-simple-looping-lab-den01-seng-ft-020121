@@ -9,3 +9,4 @@ def loop_message_n_times(message, number)
     puts message
   end
 end
+
