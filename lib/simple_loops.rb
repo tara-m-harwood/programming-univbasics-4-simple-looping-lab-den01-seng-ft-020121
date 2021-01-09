@@ -20,9 +20,11 @@ end
 
 def return_string_array(array)
   new_array = []
-  counter = 0 
-  while array[counter] do
-    new_array
-    counter += 1
+  index = 0 
+  while array[index] do
+    new_array[index] = array[index]
+    index += 1
   end
+  new_array
+end
   
